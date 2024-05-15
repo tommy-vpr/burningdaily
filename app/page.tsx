@@ -89,7 +89,7 @@ export default function Home() {
           })}
         </motion.div>
 
-        <motion.div 
+        <motion.div
         initial={{
           y: 100,
           opacity: 0
