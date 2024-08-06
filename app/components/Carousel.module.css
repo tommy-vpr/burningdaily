@@ -1,0 +1,26 @@
+/* components/Carousel.module.css */
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carouselItem {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .carouselItem.active {
+    opacity: 1;
+  }
+  

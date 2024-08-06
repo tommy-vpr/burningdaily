@@ -7,6 +7,11 @@ import NewsLetter from "./components/NewsLetter";
 import Subscribe from "./components/Subscribe";
 
 import { motion } from 'framer-motion'
+import SwiperCarousel from "./components/SwiperCarousel";
+
+import styles from './page.module.css'
+import Icons from "./components/Icons";
+import NewArrival from "./components/NewArrival";
 
 const pens = [
   {
@@ -65,57 +70,38 @@ const edibles = [
 export default function Home() {
   return (
     <main>
-      <Carousel />
+        <div className="hidden 2xl:flex gap-4 p-4 bg-[#f5f5f5] w-[100%]">
+         <div className="h-96 w-1/4">
+          <img className="h-full w-full object-cover object-center" src="images/BD-FireDeals_Mobile.png" alt="" />
+         </div>
+         <div className="h-96 flex-2">
+          <img className="h-full w-full object-cover" src="images/BD-E-Torch-x-Dozo-B2SH_Desktop-Banner.png" alt="" />
+         </div>
+         <div className="h-96 w-1/4">
+          <img className="h-full w-full object-cover object-center" src="images/BD-FireDeals_Mobile.png" alt="" />
+         </div>
+        </div>
+        {
+          <div className="flex gap-4 p-4 2xl:hidden bg-[#f5f5f5] w-[100%] flex-col">
+            <div className="w-full">
+              <img className="h-full w-full object-cover" src="images/BD-E-Torch-x-Dozo-B2SH_Desktop-Banner.png" alt="" />
+            </div>
+            <div className="flex gap-4">
+                <div className="w-full">
+                  <img className="object-contain" src="images/BD-FireDeals_Mobile.png" alt="" />
+                </div>
+                <div className="w-full">
+                  <img className="object-contain" src="images/BD-FireDeals_Mobile.png" alt="" />
+                </div>
+            </div>
+          </div>
+        }
+        
+        <Icons />
 
-      <section className="px-4 md:px-0 md:max-w-5xl border-t-[1px] border-gray-100 mx-auto mt-16 py-4 pt-12">
-        <motion.div 
-          initial={{
-            y: 100,
-            opacity: 0
-          }}
-          viewport={{once: true}}
-          whileInView={{
-            y: 0,
-            opacity: 1,
-            transition: {
-              duration: .4
-            }
-          }}
-          className="grid grid-cols-2 md:grid-cols-3 gap-4">
-          {pens.map((pen, i) => {
-            return (
-              <InfoCard key={i} item={pen} />
-            )
-          })}
-        </motion.div>
-
-        <motion.div
-        initial={{
-          y: 100,
-          opacity: 0
-        }}
-        viewport={{once: true}}
-        whileInView={{
-          y: 0,
-          opacity: 1,
-          transition: {
-            duration: .4
-          }
-        }}
-        className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4">
-          {edibles.map((edible, i) => {
-            return (
-              <InfoCard key={i} item={edible} />
-            )
-          })}
-        </motion.div>
-      </section>
+        <NewArrival />
 
       <Subscribe />
-
-      {/* <section className="w-full bg-[#101010] flex justify-center items-center py-12">
-          
-      </section> */}
     </main>
   );
 }
