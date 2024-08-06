@@ -23,24 +23,22 @@ import SwiperCarousel from './SwiperCarousel'
 const Header = () => {
   return (
     <header>
-        {/* <div className='bg-[#327739] p-2 text-white flex gap-2 w-full items-center justify-center'>
-            <span className='text-xs md:text-sm'>Your one stop shop</span>
-            <div className='flex gap-2 text-sm'>
-                <FaTwitter />
-                <FaFacebook />
-                <FaInstagram />
-            </div>
-        </div> */}
-
         <div className='flex justify-between items-center mx-auto py-4 px-8'>
-            <img className='w-[120px]' src="images/MainBD-Logo.png" alt="" />
-            {/* <h1 className='text-3xl md:text-6xl text-gray-800 text-center flex items-center gap-3'>LIV A LITTO</h1> */}
-
-            <SwiperCarousel />
+            <Link href='https://burningdaily.com/'>
+                <img className='w-[100px] lg:w-[130px]' src="images/MainBD-Logo.png" alt="" />
+            </Link>
+            
+            <div className='hidden w-1/2 md:flex'>
+                <SwiperCarousel />
+            </div>
 
             <div className='flex items-center gap-2 text-[#101010]'>
-                <FaSearch />
-                <FaUser />
+                <Link href='https://burningdaily.com/'>
+                    <FaSearch />
+                </Link>
+                <Link href='https://burningdaily.com/'>
+                    <FaUser />
+                </Link>
                 <Sheet>
                 <SheetTrigger>
                     <FaBars className='text-[#101010] text-lg cursor-pointer' />
@@ -49,17 +47,28 @@ const Header = () => {
                     <SheetHeader>
                     <SheetDescription>
                         <ul className='flex flex-col gap-2 mt-12 text-left text-xl'>
-                            <Link href='' >
-                                <li className='hover:text-gray-500 p-2 transition 
-                            duration-200'>HOME</li>
+                            <Link href='https://burningdaily.com/'>
+                                <li className='hover:text-gray-500 p-2 transition duration-200'>New rrivals</li>
                             </Link>
-                            <Link href='' className='hover:text-gray-500 p-2 transition 
+                            <Link href='https://burningdaily.com/' className='hover:text-gray-500 p-2 transition 
                             duration-200'>
-                                <li>ABOUT</li>
+                                <li>Shopp All</li>
                             </Link>
-                            <Link href='' className='hover:text-gray-500 p-2 transition 
+                            <Link href='https://burningdaily.com/' className='hover:text-gray-500 p-2 transition 
                             duration-200'>
-                                <li>LEARN MORE</li>
+                                <li>Edibles</li>
+                            </Link>
+                            <Link href='https://burningdaily.com/' className='hover:text-gray-500 p-2 transition 
+                            duration-200'>
+                                <li>Flower & Prerolls</li>
+                            </Link>
+                            <Link href='https://burningdaily.com/' className='hover:text-gray-500 p-2 transition 
+                            duration-200'>
+                                <li>Pets</li>
+                            </Link>
+                            <Link href='https://burningdaily.com/' className='hover:text-gray-500 p-2 transition 
+                            duration-200'>
+                                <li>Deals</li>
                             </Link>
                         </ul>
                     </SheetDescription>
@@ -68,19 +77,6 @@ const Header = () => {
             </Sheet>
             </div>
         </div>
-
-        {/* <div className='border-y-[1px] text-gray-500 text-[11px] md:text-sm border-gray-100 w-full justify-center p-2 uppercase
-            flex gap-4 items-center'>
-            <p className='flex items-center'>
-                <span className='mr-2 h-[4px] w-[4px] bg-gray-600 rounded-full inline-block'></span>
-                innovative technology</p>
-            <p className='flex items-center'>
-                <span className='mr-2 h-[4px] w-[4px] bg-gray-600 rounded-full inline-block'></span>
-                satisfying experiences</p>
-            <p className='flex items-center'>
-                <span className='mr-2 h-[4px] w-[4px] bg-gray-600 rounded-full inline-block'></span>
-                premium blends</p>
-        </div> */}
     </header>
   )
 }

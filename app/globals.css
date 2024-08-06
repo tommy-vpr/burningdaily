@@ -16,4 +16,9 @@
   .swiper-button-next,
   .swiper-button-prev {
     color: #666;
+    z-index: 100
   }
+
+  /* .swiper-pagination-bullets {
+    top: 0 !important;
+  } */

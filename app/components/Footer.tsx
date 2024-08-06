@@ -4,7 +4,7 @@ import { FaMap, FaPhone, FaEnvelope, FaLocationArrow } from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <footer className='flex p-12 justify-center items-center bg-[#101010]'>
+    <footer className='flex p-12 justify-center items-center bg-[#327739]'>
       <div className='flex justify-center items-center text-gray-100'>
         <ul className='text-sm flex gap-14'>
                 <li className='flex gap-2 items-center'>

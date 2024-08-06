@@ -10,12 +10,12 @@ import styles from './arrival.module.css';
 
 import { FaArrowRight } from 'react-icons/fa';
 
-import { arrivals } from '@/data';
+import { arrivals, deals } from '@/data';
 import Link from 'next/link';
 
-const NewArrival = () => {
+const Deals = () => {
   return (
-    <div className="px-8">
+    <div className="px-8 mt-16">
       <div className="flex gap-4 items-center mb-4">
         <span className="h-[1px] w-full bg-[#cecece]"></span>
         <h3 className="text-3xl font-bold text-center text-nowrap	">
@@ -55,11 +55,11 @@ const NewArrival = () => {
         // pagination={{ clickable: true }}
         pagination
         className='p-8'>
-        {arrivals.map((item) => (
+        {deals.map((item) => (
           <SwiperSlide className=" text-[#666] h-full pb-10">
             {/* <img src={item.image} alt="" /> */}
             <div className='h-2/3 flex flex-col justify-between'>
-            <Link href=''>
+            <Link href='https://burningdaily.com/'>
               <img src={item.image} alt="burning daily" />
             </Link>
               <div className='h-[100px]'>
@@ -68,9 +68,10 @@ const NewArrival = () => {
               </div>
               <div className='py-1'>
                 <div className="flex flex-col lg:flex-row gap-2 lg:gap-4">
+
                 <Link href='https://burningdaily.com/' className="rounded bg-[#327739] hover:bg-[#3e9446] text-white 
                 transition duration-150 text-md p-2 w-full flex justify-center items-center">
-                  Shop now
+                  Add to cart
                 </Link>
               </div>
               </div>
@@ -82,4 +83,4 @@ const NewArrival = () => {
   );
 };
 
-export default NewArrival;
+export default Deals;
