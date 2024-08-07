@@ -52,8 +52,8 @@ const NewArrival = () => {
             spaceBetween: 30
           }
         }}
-        // pagination={{ clickable: true }}
-        pagination
+        pagination={{ clickable: true }}
+        // pagination
         className='p-8'>
         {arrivals.map((item) => (
           <SwiperSlide className=" text-[#666] h-full pb-10">
