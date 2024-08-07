@@ -29,7 +29,7 @@ const Subscribe = () => {
 ] to-[#f78d2a] text-white drop-shadow-lg
         w-[85%] md:w-1/3 md:max-w-xl p-8 mx-auto rounded-xl flex-col gap-4'>
             <p className='text-lg md:text-xl font-semibold'>
-            Get 20% off your first purchase!
+            Get 15% off your first purchase!
             </p>
             <p className='text-white font-normal px-4 py-2 flex gap-2 items-center rounded-[8px] border-[1px]
                 group group-hover:bg-white cursor-pointer hover:bg-white transition duration-150'>

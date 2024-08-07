@@ -21,7 +21,7 @@ export default ({ isMobile }: Props) => {
       modules={[Autoplay, Pagination]}
       slidesPerView={1}
       autoplay={{
-        delay: 2000,
+        delay: 5000,
         pauseOnMouseEnter: true,
         disableOnInteraction: false,
       }}
@@ -41,7 +41,7 @@ export default ({ isMobile }: Props) => {
       <SwiperSlide className={`${isMobile ? 'p-4' : 'mt-4'}`}>
         <div className="text-center flex justify-center items-center gap-2 text-[#666]">
           <FaTag className={`${isMobile ? 'text-md text-[orangered]' : 'text-xl text-[orangered]'}`} />
-          <p className={`${isMobile ? 'text-white text-sm' : 'text-[#333'}`}>Get 20% off your first purchase</p>
+          <p className={`${isMobile ? 'text-white text-sm' : 'text-[#333'}`}>Get 15% off your first purchase</p>
           <Link
             href='https://burningdaily.com/'
             className={`${isMobile ? 'px-2 py-[2px]' : 'px-4 py-[4px]'} rounded-full text-xs ${isMobile ? 'bg-[#101010]' : 'bg-[#327739]'} text-white`}>
