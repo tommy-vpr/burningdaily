@@ -80,32 +80,11 @@ export default function Home() {
 
       <Icons />
 
-      <motion.div
-        initial={{ y: 200, opacity: 0}}
-        whileInView={{ y: 0, opacity: 1}}
-        transition={{ duration: .5 }}
-        viewport={{ once: true }}
-      >
-        <NewArrival />
-      </motion.div>
+      <NewArrival />
 
-      <motion.div
-        initial={{ y: 200, opacity: 0}}
-        whileInView={{ y: 0, opacity: 1}}
-        transition={{ duration: .5 }}
-        viewport={{ once: true }}
-      >
-        <Flavor />
-      </motion.div>
-      
-      <motion.div
-        initial={{ y: 200, opacity: 0}}
-        whileInView={{ y: 0, opacity: 1}}
-        transition={{ duration: .5 }}
-        viewport={{ once: true }}
-      >
-        <Deals />
-      </motion.div>
+      <Flavor />
+    
+      <Deals />
 
       <Subscribe />
     </main>
