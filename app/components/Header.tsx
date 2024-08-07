@@ -22,7 +22,7 @@ import SwiperCarousel from './SwiperCarousel'
   
 const Header = () => {
   return (
-    <header>
+    <header className='sticky top-0 bg-white z-10'>
         <div className='flex justify-between items-center mx-auto py-2 px-4'>
             <Link href='https://burningdaily.com/'>
                 <img className='w-[80px] lg:w-[130px]' src="images/MainBD-Logo.png" alt="" />
