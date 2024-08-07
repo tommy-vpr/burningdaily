@@ -23,9 +23,9 @@ import SwiperCarousel from './SwiperCarousel'
 const Header = () => {
   return (
     <header>
-        <div className='flex justify-between items-center mx-auto py-4 px-8'>
+        <div className='flex justify-between items-center mx-auto py-2 px-4'>
             <Link href='https://burningdaily.com/'>
-                <img className='w-[100px] lg:w-[130px]' src="images/MainBD-Logo.png" alt="" />
+                <img className='w-[80px] lg:w-[130px]' src="images/MainBD-Logo.png" alt="" />
             </Link>
             
             <div className='hidden w-1/2 md:flex'>
@@ -33,15 +33,15 @@ const Header = () => {
             </div>
 
             <div className='flex items-center gap-2 text-[#101010]'>
-                <Link href='https://burningdaily.com/'>
+                {/* <Link href='https://burningdaily.com/'>
                     <FaSearch />
                 </Link>
                 <Link href='https://burningdaily.com/'>
                     <FaUser />
-                </Link>
+                </Link> */}
                 <Sheet>
                 <SheetTrigger>
-                    <FaBars className='text-[#101010] text-lg cursor-pointer' />
+                    <FaBars className='text-[#101010] cursor-pointer text-xl' />
                 </SheetTrigger>
                 <SheetContent className='bg-white'>
                     <SheetHeader>

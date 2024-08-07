@@ -27,7 +27,7 @@ const Subscribe = () => {
         className='absolute top-0 -translate-y-[50%] left-1/2 -translate-x-[50%] 
         z-10 flex justify-center items-center bg-gradient-to-r from-[#EF453E] via-[#EF453E
 ] to-[#f78d2a] text-white drop-shadow-lg
-        w-3/4 md:1/3 md:max-w-xl p-8 mx-auto rounded-xl flex-col gap-4'>
+        w-[85%] md:w-1/3 md:max-w-xl p-8 mx-auto rounded-xl flex-col gap-4'>
             <p className='text-lg md:text-xl font-semibold'>
             Get 20% off your first purchase!
             </p>

@@ -48,7 +48,7 @@ export default function Home() {
           <Link href='https://burningdaily.com/'>
             <img
               className="h-full w-full object-cover"
-              src="images/BD-E-Torch-x-Dozo-B2SH_Desktop-Banner.png"
+              src="images/BD-EightySix_Web_Banner.png"
               alt=""
             />
           </Link>
@@ -68,7 +68,7 @@ export default function Home() {
             <Link href='https://burningdaily.com/'>
               <img
                 className="object-contain"
-                src="images/BD-EightySix_Mobile_600x600.webp"
+                src="images/BD-E-07-02-24-Chapo-Mobile-Compressed.jpg"
                 alt=""
               />
             </Link>

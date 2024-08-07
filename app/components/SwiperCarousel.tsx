@@ -27,24 +27,24 @@ export default ({ isMobile }: Props) => {
       }}
       loop
       className={`${isMobile ? 'bg-[#327739]' : ''} swiper-container`}>
-      <SwiperSlide className={`${isMobile ? 'p-2' : 'mt-4'}`}>
+      <SwiperSlide className={`${isMobile ? 'p-4' : 'mt-4'}`}>
         <div className="text-center flex justify-center items-center gap-2 text-[#666]">
-          <FaTruck className="text-xl text-[orangered]" />
+          <FaTruck className={`${isMobile ? 'text-md text-[orangered]' : 'text-xl text-[orangered]'}`} />
           <p className={`${isMobile ? 'text-white text-sm' : 'text-[#333'}`}>Free shipping on all U.S orders $50+</p>
           <Link
             href='https://burningdaily.com/'
-            className={`px-4 py-[4px] rounded-full text-xs ${isMobile ? 'bg-[#101010]' : 'bg-[#327739]'} text-white`}>
+            className={`${isMobile ? 'px-2 py-[2px]' : 'px-4 py-[4px]'} rounded-full text-xs ${isMobile ? 'bg-[#101010]' : 'bg-[#327739]'} text-white`}>
             Shop Now
           </Link>
         </div>
       </SwiperSlide>
-      <SwiperSlide className={`${isMobile ? 'p-2' : 'mt-4'}`}>
+      <SwiperSlide className={`${isMobile ? 'p-4' : 'mt-4'}`}>
         <div className="text-center flex justify-center items-center gap-2 text-[#666]">
-          <FaTag className="text-xl text-[orangered]" />
+          <FaTag className={`${isMobile ? 'text-md text-[orangered]' : 'text-xl text-[orangered]'}`} />
           <p className={`${isMobile ? 'text-white text-sm' : 'text-[#333'}`}>Get 20% off your first purchase</p>
           <Link
             href='https://burningdaily.com/'
-            className={`px-4 py-[4px] rounded-full text-xs ${isMobile ? 'bg-[#101010]' : 'bg-[#327739]'} text-white`}>
+            className={`${isMobile ? 'px-2 py-[2px]' : 'px-4 py-[4px]'} rounded-full text-xs ${isMobile ? 'bg-[#101010]' : 'bg-[#327739]'} text-white`}>
             Claim Now
           </Link>
         </div>
