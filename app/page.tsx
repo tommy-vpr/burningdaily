@@ -9,11 +9,12 @@ import Flavor from './components/Flavor';
 import Deals from './components/Deals';
 import Link from 'next/link';
 
+import { motion } from 'framer-motion'
 
 export default function Home() {
   return (
     <main>
-      <div className="hidden xl:flex gap-4 p-4 bg-[#f5f5f5] w-[100%]">
+      <div className="hidden 2xl:flex gap-4 p-4 bg-[#f5f5f5] w-[100%]">
         <div className="h-[420px] xl:h-[440px] w-1/4">
           <Link href='https://burningdaily.com/'>
             <img
@@ -43,7 +44,7 @@ export default function Home() {
         </div>
       </div>
       {
-        <div className="flex gap-4 p-4 xl:hidden bg-[#f5f5f5] w-[100%] flex-col">
+        <div className="flex gap-4 p-4 2xl:hidden bg-[#f5f5f5] w-[100%] flex-col">
           <div className="w-full">
           <Link href='https://burningdaily.com/'>
             <img
@@ -79,11 +80,32 @@ export default function Home() {
 
       <Icons />
 
-      <NewArrival />
+      <motion.div
+        initial={{ y: 200, opacity: 0}}
+        whileInView={{ y: 0, opacity: 1}}
+        transition={{ duration: .5 }}
+        viewport={{ once: true }}
+      >
+        <NewArrival />
+      </motion.div>
 
-      <Flavor />
-
-      <Deals />
+      <motion.div
+        initial={{ y: 200, opacity: 0}}
+        whileInView={{ y: 0, opacity: 1}}
+        transition={{ duration: .5 }}
+        viewport={{ once: true }}
+      >
+        <Flavor />
+      </motion.div>
+      
+      <motion.div
+        initial={{ y: 200, opacity: 0}}
+        whileInView={{ y: 0, opacity: 1}}
+        transition={{ duration: .5 }}
+        viewport={{ once: true }}
+      >
+        <Deals />
+      </motion.div>
 
       <Subscribe />
     </main>

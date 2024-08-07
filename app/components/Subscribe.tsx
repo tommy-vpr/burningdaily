@@ -48,8 +48,8 @@ const Subscribe = () => {
             <img width={140} src="images/WhiteBD-Logo.png" alt="Burningdaily" />
         </div>
         
-        <div className='my-4 md:my-0 flex flex-col items-center md:flex-row gap-4 mt-12 m-auto max-w-fit md:m-0 md:mt-16 md:ml-auto py-2'>
-            <p className='font-semibold text-gray-200 '>Contact</p>
+        <div className='flex flex-col md:flex-row justify-center items-center mt-8 gap-4 mb-8'>
+            <p className='font-semibold text-gray-200 '>Contact:</p>
             <a className='flex gap-2 items-center text-gray-200 text-sm' 
                 href="https://burningdaily.com/">
                     <IoIosMail className='flex gap-2 items-center text-gray-200 text-lg'/>Areyou@burningdaily.com</a>
@@ -58,7 +58,7 @@ const Subscribe = () => {
                     <MdPhoneIphone className='text-lg'/>+1(626)601-9635</a>
         </div>
     </div>
-    <div className='text-center text-gray-300 text-xs p-4 border-t-[1px] border-[#38833f]'>
+    <div className='text-center text-[#113d15] text-sm p-4 border-t-[1px] border-[#38833f]'>
         &copy;2024 Burningdaily
         </div>
 </div>
