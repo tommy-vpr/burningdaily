@@ -48,11 +48,12 @@ const Header = () => {
                     <SheetDescription>
                         <ul className='flex flex-col gap-2 mt-12 text-left text-xl'>
                             <Link href='https://burningdaily.com/'>
-                                <li className='hover:text-gray-500 p-2 transition duration-200'>New rrivals</li>
+                                <li className='hover:text-gray-500 p-2 transition duration-200'>
+                                    New Arrivals</li>
                             </Link>
                             <Link href='https://burningdaily.com/' className='hover:text-gray-500 p-2 transition 
                             duration-200'>
-                                <li>Shopp All</li>
+                                <li>Shop All</li>
                             </Link>
                             <Link href='https://burningdaily.com/' className='hover:text-gray-500 p-2 transition 
                             duration-200'>
