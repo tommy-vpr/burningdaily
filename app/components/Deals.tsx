@@ -71,7 +71,7 @@ const Deals = () => {
 
                 <Link href='https://burningdaily.com/' className="rounded bg-[#327739] hover:bg-[#3e9446] text-white 
                 transition duration-150 text-md p-2 w-full flex justify-center items-center">
-                  Add to cart
+                  Show now
                 </Link>
               </div>
               </div>
