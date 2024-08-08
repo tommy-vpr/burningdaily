@@ -25,6 +25,7 @@ export default ({ isMobile }: Props) => {
         pauseOnMouseEnter: true,
         disableOnInteraction: false,
       }}
+      speed={500}
       loop
       className={`${isMobile ? 'bg-[#327739]' : ''} swiper-container`}>
       <SwiperSlide className={`${isMobile ? 'p-4' : 'mt-4'}`}>
