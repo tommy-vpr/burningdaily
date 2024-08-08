@@ -19,7 +19,7 @@ const Deals = () => {
       <div className="flex gap-4 items-center mb-4">
         <span className="h-[1px] w-full bg-[#cecece]"></span>
         <h3 className="text-3xl font-bold text-center text-nowrap	">
-          New Arrivals
+          $15 & Under Gifts
         </h3>
         <span className="h-[1px] w-full bg-[#cecece]"></span>
       </div>
