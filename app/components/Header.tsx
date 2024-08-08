@@ -28,7 +28,7 @@ const Header = () => {
                 <img className='w-[80px] lg:w-[115px]' src="images/MainBD-Logo.png" alt="" />
             </Link>
             
-            <div className='hidden w-1/2 md:flex'>
+            <div className='hidden w-2/3 md:flex'>
                 <SwiperCarousel />
             </div>
 
