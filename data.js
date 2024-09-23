@@ -57,7 +57,7 @@ const arrivals = [
         title: 'Chapo Extrax - Gummies - Green Apple Bliss - 5000MG',
         price: '27.99',
         brand: 'Chapo Extrax',
-        image: 'images/CannaRiver-Delta8-Disposable-BlueDream-2G.webp',
+        image: 'images/ChapoExtrax-THCA-PHCP-Edible-Gummies-GreenAppleBliss-5000MG_bb4c0cef-9ffd-4868-ae23-ccb0e00e4e90.webp',
         url: 'https://burningdaily.com/products/chapo-extrax-thca-phcp-edible-gummies-green-apple-bliss-5000mg'
     },
     {
