@@ -47,27 +47,19 @@ const Header = () => {
                     <SheetHeader>
                     <SheetDescription>
                         <ul className='flex flex-col gap-2 mt-12 text-left text-xl'>
-                            <Link href='https://burningdaily.com/'>
-                                <li className='hover:text-gray-500 p-2 transition duration-200'>
-                                    New Arrivals</li>
-                            </Link>
-                            <Link href='https://burningdaily.com/' className='hover:text-gray-500 p-2 transition 
+                            <Link href='https://burningdaily.com/collections/delta-8-disposables' className='hover:text-gray-500 p-2 transition 
                             duration-200'>
-                                <li>Shop All</li>
+                                <li>Disposables</li>
                             </Link>
-                            <Link href='https://burningdaily.com/' className='hover:text-gray-500 p-2 transition 
+                            <Link href='https://burningdaily.com/collections/delta-8-edibles' className='hover:text-gray-500 p-2 transition 
                             duration-200'>
                                 <li>Edibles</li>
                             </Link>
-                            <Link href='https://burningdaily.com/' className='hover:text-gray-500 p-2 transition 
-                            duration-200'>
-                                <li>Flower & Prerolls</li>
-                            </Link>
-                            <Link href='https://burningdaily.com/' className='hover:text-gray-500 p-2 transition 
+                            <Link href='https://burningdaily.com/collections/pets/' className='hover:text-gray-500 p-2 transition 
                             duration-200'>
                                 <li>Pets</li>
                             </Link>
-                            <Link href='https://burningdaily.com/' className='hover:text-gray-500 p-2 transition 
+                            <Link href='https://burningdaily.com/collections/discount' className='hover:text-gray-500 p-2 transition 
                             duration-200'>
                                 <li>Deals</li>
                             </Link>

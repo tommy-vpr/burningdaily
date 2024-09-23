@@ -15,7 +15,7 @@ import Link from 'next/link';
 
 const NewArrival = () => {
   return (
-    <div className="px-8">
+    <div className="px-8 max-w-[1200px] m-auto">
       <div className="flex gap-4 items-center mb-4">
         <span className="h-[1px] w-full bg-[#cecece]"></span>
         <h3 className="text-3xl font-bold text-center text-nowrap	">
@@ -23,61 +23,24 @@ const NewArrival = () => {
         </h3>
         <span className="h-[1px] w-full bg-[#cecece]"></span>
       </div>
-      <Swiper
-        modules={[Autoplay, Pagination]}
-        slidesPerView={4}
-        spaceBetween={50}
-        // autoplay={{
-        //   delay: 2500,
-        //   pauseOnMouseEnter: true,
-        //   disableOnInteraction: false,
-        // }}
-        loop
-        navigation
-        breakpoints={{
-          320: {
-            slidesPerView: 1,
-            spaceBetween: 20
-          },
-          640: {
-            slidesPerView: 2,
-            spaceBetween: 30
-          },
-          900: {
-            slidesPerView: 4,
-            spaceBetween: 30
-          },
-          1200: {
-            slidesPerView: 5,
-            spaceBetween: 30
-          }
-        }}
-        pagination={{ clickable: true }}
-        // pagination
-        className='p-8'>
-        {arrivals.map((item) => (
-          <SwiperSlide className=" text-[#666] h-full pb-10">
-            {/* <img src={item.image} alt="" /> */}
-            <div className='h-2/3 flex flex-col justify-between'>
-            <Link href=''>
-              <img src={item.image} alt="burning daily" />
-            </Link>
-              <div className='h-[100px]'>
-                <p className="text-left text-[#327739]">${item.price}</p>
-                <p className="text-sm xl:text- text-left">{item.title}</p>
-              </div>
-              <div className='py-1'>
-                <div className="flex flex-col lg:flex-row gap-2 lg:gap-4">
-                <Link href='https://burningdaily.com/' className="rounded bg-[#327739] hover:bg-[#3e9446] text-white 
-                transition duration-150 text-md p-2 w-full flex justify-center items-center">
-                  Shop now
-                </Link>
-              </div>
-              </div>
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
+      <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
+  {arrivals.map((item) => (
+    <div key={item.title} className="text-[#666] h-full pb-10 flex flex-col">
+      <Link href={item.url}>
+        <img src={item.image} alt={item.title} className='object-contain w-full h-54 rounded-lg' />
+      </Link>
+      <div className='flex-grow flex flex-col justify-between h-[100px]'>
+        <div className='mt-2'>
+          <p className="text-left text-[#327739] text-lg">${item.price}</p>
+          <p className="text-sm text-left">{item.title}</p>
+        </div>
+        <div className='py-1'>
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
+
     </div>
   );
 };

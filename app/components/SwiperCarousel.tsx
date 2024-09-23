@@ -15,7 +15,6 @@ type Props = {
 }
 
 export default ({ isMobile }: Props) => {
-  console.log(isMobile)
   return (
     <Swiper
       modules={[Autoplay, Pagination]}

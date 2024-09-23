@@ -16,61 +16,61 @@ export default function Home() {
     <main>
       <div className="hidden 2xl:flex gap-4 p-4 bg-[#f5f5f5] w-[100%]">
         <div className="h-[420px] xl:h-[440px] w-1/4">
-          <Link href='https://burningdaily.com/'>
+          <Link href='https://burningdaily.com/collections/canna-river'>
             <img
               className=" w-full h-full object-cover object-center lg:object-left-bottom"
-              src="images/BD-FireDeals_Mobile.png"
-              alt=""
+              src="images/BD-Canna_River.jpg"
+              alt="Canna_River"
             />
           </Link>
         </div>
         <div className="h-[420px] xl:h-[440px] flex-2">
-        <Link href='https://burningdaily.com/'>
+        <Link href='https://burningdaily.com/collections/eighty-six/'>
           <img
             className="h-full w-full object-cover"
             src="images/BD-EightySix_Web_Banner.png"
-            alt=""
+            alt="EightySix"
           />
         </Link>
         </div>
         <div className="h-[420px] xl:h-[440px] w-1/4">
-          <Link href='https://burningdaily.com/'>
+          <Link href='https://burningdaily.com/collections/chapo-extrax'>
             <img
               className=" w-full h-full object-cover object-center lg:object-left-bottom"
               src="images/BD-E-07-02-24-Chapo-Mobile-Compressed.jpg"
-              alt=""
+              alt="Chapo"
             />
           </Link>
         </div>
       </div>
       {
-        <div className="flex gap-4 p-4 2xl:hidden bg-[#f5f5f5] w-[100%] flex-col">
+        <div className="flex gap-[5px] p-[5px] 2xl:p-4 2xl:hidden bg-[#f5f5f5] w-[100%] flex-col">
           <div className="w-full">
-          <Link href='https://burningdaily.com/'>
+          <Link href='https://burningdaily.com/collections/eighty-six/'>
             <img
               className="h-full w-full object-cover"
               src="images/BD-EightySix_Web_Banner.png"
-              alt=""
+              alt="EightySix"
             />
           </Link>
             
           </div>
-          <div className="flex gap-4">
+          <div className="flex gap-[5px]">
             <div className="w-full">
-            <Link href='https://burningdaily.com/'>
+            <Link href='https://burningdaily.com/collections/canna-river'>
               <img
                 className="object-contain"
-                src="images/BD-FireDeals_Mobile.png"
-                alt=""
+                src="images/BD-Canna_River.jpg"
+                alt="Canna_River"
               />
             </Link>
             </div>
             <div className="w-full">
-            <Link href='https://burningdaily.com/'>
+            <Link href='https://burningdaily.com/collections/chapo-extrax'>
               <img
                 className="object-contain"
                 src="images/BD-E-07-02-24-Chapo-Mobile-Compressed.jpg"
-                alt=""
+                alt="Chapo"
               />
             </Link>
             </div>

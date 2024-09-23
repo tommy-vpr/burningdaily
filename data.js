@@ -26,52 +26,46 @@ const icons = [
 
 const arrivals = [
     {
-        title: 'Little High - Disposable - Strawberry Cough - 2G',
-        price: '21.99',
-        brand: 'LITTLE HIGH',
-        image: 'images/LittleHigh-Delta8-Disposable-StrawberryCough-2G.webp'
+        title: 'Torch - Pressure Blend - Disposable - Pink Guava - 3.5G',
+        price: '29.99',
+        brand: 'TORCH',
+        image: 'images/Torch-THCA-PressureBlend-Disposable-PinkGuava-3.5G.webp',
+        url: 'https://burningdaily.com/products/torch-thca-pressure-blend-disposable-pink-guava-3-5g'
     },
     {
-        title: 'TreHouse - Liquid Diamond - Disposable - Frosted Guava - 3.5G',
-        price: '39.99',
-        brand: 'TRE HOUSE',
-        image: 'images/TreHouse-LiveRosin-THCA-Disposable-FrostedGuava-3.5G.webp'
-    },
-    {
-        title: 'Xhale - Px9 - Disposable - Super Silver Haze - 2G',
-        price: '24.99',
-        brand: 'XHALE',
-        image: 'images/Xhale-LiveResin-THCA-Px9-Disposable-SuperSilverHaze-2G.webp'
-    },
-    {
-        title: 'Xhale - Px9 - Disposable - Candy Gas - 2G',
-        price: '24.99',
-        brand: 'XHALE',
-        image: 'images/Xhale-LiveResin-THCA-Px9-Disposable-CandyGas-2G.webp'
-    },
-    {
-        title: 'Canna River - Disposable - Blue Dream - 2G',
-        price: '24.99',
-        brand: 'CANNA RIVER',
-        image: 'images/CannaRiver-Delta8-Disposable-BlueDream-2G.webp'
-    },
-    {
-        title: 'GRDNT - Galaxy Chews - Gummies - Sweet Strawberry - 10000MG',
-        price: '27.99',
-        brand: 'GRDNT',
-        image: 'images/GRDNT-GalaxyChews-Gummies-SweetStrawberry-10000MG.webp'
-    },
-    {
-        title: 'Purlyf - Gummies - Apple - 1000MG',
+        title: 'LITTO - KTFO - Disposable - Watermelon OG - 2G',
         price: '19.99',
-        brand: 'PURLYF',
-        image: 'images/Purlyf-Delta8-Gummies-Apple-1000MG.webp'
+        brand: 'LITTO',
+        image: 'images/LITTO-KTFO-THCA-Disposable-WatermelonOG-2G.webp',
+        url: 'https://burningdaily.com/products/litto-ktfo-thca-disposable-watermelon-og-2g'
     },
     {
         title: 'Purlyf - Gummies - Rainbow - 1000MG',
         price: '19.99',
         brand: 'PURLYF',
-        image: 'images/Purlyf-Delta8-Gummies-Rainbow-1000MG.webp'
+        image: 'images/Purlyf-Delta8-Gummies-Rainbow-1000MG.webp',
+        url: 'https://burningdaily.com/products/purlyf-delta-8-gummies-rainbow-1000mg'
+    },
+    {
+        title: 'Chapo Extrax - Liquid Diamond - Gummies - Mango Tango - 12500MG',
+        price: '28.99',
+        brand: 'Chapo Extrax',
+        image: 'images/ChapoExtrax-THCALiquidDiamond-Gummies-MangoTango-12500MG.webp',
+        url: 'https://burningdaily.com/products/chapo-extrax-thca-liquid-diamond-gummies-mango-tango-12500mg'
+    },
+    {
+        title: 'Chapo Extrax - Gummies - Green Apple Bliss - 5000MG',
+        price: '27.99',
+        brand: 'Chapo Extrax',
+        image: 'images/CannaRiver-Delta8-Disposable-BlueDream-2G.webp',
+        url: 'https://burningdaily.com/products/chapo-extrax-thca-phcp-edible-gummies-green-apple-bliss-5000mg'
+    },
+    {
+        title: 'Canabzy - Gummies - Strawberry Watermelon - 500MG',
+        price: '3.99',
+        brand: 'CANABZY',
+        image: 'images/Canabzy-THCAInfused-Gummies-StrawberryWatermelon-500MG.webp',
+        url: 'https://burningdaily.com/products/canabzy-thca-infused-gummies-strawberry-watermelon-500mg'
     },
 ]
 
@@ -80,43 +74,43 @@ const deals = [
         title: 'Chapo Extrax - Liquid Diamond - Gummies - Blueberry Shortcake - 1000MG',
         price: '4.99',
         brand: 'CHAPO EXTRAX',
-        image: 'images/ChapoExtrax-THCALiquidDiamond-Gummies-BlueberryShortcake-1000MG.webp'
+        image: 'images/ChapoExtrax-THCALiquidDiamond-Gummies-BlueberryShortcake-1000MG.webp',
+        url: 'https://burningdaily.com/products/chapo-extrax-thca-liquid-diamond-gummies-blueberry-shortcake-1000mg'
     },
     {
         title: 'Hidden Hills - Ultra - Gummies - Sour Blue Razz - 1000MG',
         brand: 'HIDDEN HILLS',
         price: '3.99',
-        image: 'images/HiddenHills-THCAUltra-Delta9-THCB-Gummies-SourBlueRazz-1000MG.webp'
+        image: 'images/HiddenHills-THCAUltra-Delta9-THCB-Gummies-SourBlueRazz-1000MG.webp',
+        url: 'https://burningdaily.com/products/hidden-hills-thca-ultra-delta-9-thcb-gummies-sour-blue-razz-1000mg'
     },
     {
         title: 'Loose Change - Gummies - Pink Berry - 600MG',
         brand: 'CALI EXTRAX',
         price: '4.99',
-        image: 'images/LooseChange-Delta8-THCPLiveRosinBadder-Gummies-PinkBerry-600MG.webp'
+        image: 'images/LooseChange-Delta8-THCPLiveRosinBadder-Gummies-PinkBerry-600MG.webp',
+        url: 'https://burningdaily.com/products/loose-change-delta-8-thcp-live-rosin-badder-gummies-pink-berry-600mg'
     },
     {
         title: 'STIIIZY Hemp - Edibles - Gummies - Watermelon Wave - 225MG',
         brand: 'STIIIZY HEMP',
         price: '11.99',
-        image: 'images/STIIIZYHemp-Delta9-CBD-Edibles-Gummies-WatermelonWave-225MG.webp'
+        image: 'images/STIIIZYHemp-Delta9-CBD-Edibles-Gummies-WatermelonWave-225MG.webp',
+        url: 'https://burningdaily.com/products/stiiizy-hemp-delta-9-cbd-edibles-gummies-watermelon-wave-225mg'
     },
     {
         title: 'Loose Change - Disposable - Georgia Peach - 1G',
         brand: 'CALI EXTRAX',
         price: '14.99',
-        image: 'images/LooseChange-Delta8-THCPLiveRosinBadder-Disposable-GeorgiaPeach-1G.webp'
+        image: 'images/LooseChange-Delta8-THCPLiveRosinBadder-Disposable-GeorgiaPeach-1G.webp',
+        url: 'https://burningdaily.com/products/loose-change-delta-8-thcp-live-rosin-badder-disposable-georgia-peach-1g'
     },
     {
-        title: 'Kush Burst x Ghost - Edible - Gummies - Juicy Watermelon - 500MG',
-        brand: ' KUSH BURST',
-        price: '14.99',
-        image: 'images/KushBurstxGhost-HHCO-Edible-Gummies-JuicyWatermelon-500MG.webp'
-    },
-    {
-        title: 'Honeyroot - Disposable - Honey Kush - 1G',
-        brand: 'HONEYROOT',
-        price: '14.99',
-        image: 'images/HoneyRootWellness-Delta8-DisposableVape-HoneyKush.jpg'
+        title: 'Purlyf - Diamond - Popping Candies - Sour Apple Watermelon - 100MG',
+        brand: ' PURLYF',
+        price: '2.99',
+        image: 'images/Purlyf-Diamond-Delta8-Delta9-PoppingCandies-SourAppleWatermelon-100MG.webp',
+        url: 'https://burningdaily.com/products/purlyf-diamond-delta-8-delta-9-popping-candies-sour-apple-watermelon-100mg'
     },
 ]
 
