@@ -32,7 +32,7 @@ const Flavor = () => {
         </h3>
         <span className="h-[1px] w-full bg-[#cecece]"></span>
       </div>
-      <div className='flex flex-col sm:flex-row justify-center gap-8 mt-12'>
+      <div className='flex flex-col sm:flex-row justify-center gap-2 md:gap-4 xl:gap-6 mt-12'>
         {flavors.map(flavor => (
             <FlavorCard 
               key={flavor.title}
