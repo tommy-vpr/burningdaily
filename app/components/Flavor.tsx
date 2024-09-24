@@ -24,7 +24,7 @@ const flavors = [
 
 const Flavor = () => {
   return (
-    <div className="mt-12 px-8 max-w-[1200px] m-auto">
+    <div className="mt-4 px-8 max-w-[1200px] m-auto">
       <div className="flex gap-4 items-center mb-4">
         <span className="h-[1px] w-full bg-[#cecece]"></span>
         <h3 className="text-3xl font-bold text-center text-nowrap	">

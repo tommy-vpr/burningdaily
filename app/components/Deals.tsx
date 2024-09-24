@@ -15,7 +15,7 @@ import Link from 'next/link';
 
 const Deals = () => {
   return (
-    <div className="px-8 mt-24 max-w-[1200px] m-auto">
+    <div className="px-8 mt-12 max-w-[1200px] m-auto">
       <div className="flex gap-4 items-center mb-4">
         <span className="h-[1px] w-full bg-[#cecece]"></span>
         <h3 className="text-3xl font-bold text-center text-nowrap	">
