@@ -1,3 +1,4 @@
+import { title } from 'process';
 import { FaTruck,
     FaTelegramPlane,
     FaPhoneVolume 
@@ -67,6 +68,20 @@ const arrivals = [
         image: 'images/Canabzy-THCAInfused-Gummies-StrawberryWatermelon-500MG.webp',
         url: 'https://burningdaily.com/products/canabzy-thca-infused-gummies-strawberry-watermelon-500mg'
     },
+    {
+        title: 'Canabzy - Gummies - Cotton Candy - 500MG',
+        price: '3.99',
+        brand: 'Canabzy',
+        image: 'images/Canabzy-Infused-Gummies-CottonCandy-500MG.webp',
+        url: 'https://burningdaily.com/products/canabzy-thca-infused-gummies-cotton-candy-500mg',
+    },
+    {
+        title: 'LITTO - Diamond Encrusted - Preroll - Cotton Candy - 3G',
+        price: '17.99',
+        brand: 'LITTO',
+        image: 'images/LITTO-DiamondEncrusted-Preroll-CottonCandy-3G.webp',
+        url: 'https://burningdaily.com/products/litto-thca-diamond-encrusted-preroll-cotton-candy-3g',
+    }
 ]
 
 const deals = [
