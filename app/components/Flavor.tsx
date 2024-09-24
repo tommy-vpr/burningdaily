@@ -11,7 +11,7 @@ const flavors = [
     {
         title: 'Pre-Rolls',
         desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, quae numquam quasi deserunt vel magnam temporibus! Quas illo soluta',
-        image: 'images/pre-rolls.webp',
+        image: 'images/diamond-pre-rolls.webp',
         url: 'https://burningdaily.com/collections/thc-a-prerolls'
     },
     {
