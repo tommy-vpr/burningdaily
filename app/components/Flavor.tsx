@@ -24,7 +24,7 @@ const flavors = [
 
 const Flavor = () => {
   return (
-    <div className="mt-4 px-8 max-w-[1200px] m-auto">
+    <div className="mt-4 px-8 max-w-[1400px] m-auto">
       <div className="flex gap-4 items-center mb-4">
         <span className="h-[1px] w-full bg-[#cecece]"></span>
         <h3 className="text-3xl font-bold text-center text-nowrap	">
@@ -32,7 +32,7 @@ const Flavor = () => {
         </h3>
         <span className="h-[1px] w-full bg-[#cecece]"></span>
       </div>
-      <div className='flex flex-col sm:flex-row justify-center gap-2 md:gap-4 xl:gap-6 mt-12'>
+      <div className='py-2 lg:py-16 m-auto flex flex-col sm:flex-row justify-center gap-2 md:gap-4 xl:gap-6 mt-12'>
         {flavors.map(flavor => (
             <FlavorCard 
               key={flavor.title}
