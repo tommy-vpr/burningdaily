@@ -24,11 +24,11 @@ export default function Home() {
           </Link>
         </div>
         <div className="h-[420px] xl:h-[440px] flex-2">
-          <Link href="https://burningdaily.com/collections/flower-pre-rolls">
+          <Link href="https://burningdaily.com/collections/delta-8-cartridges">
             <img
               className="h-full w-full object-cover"
-              src="https://cdn.shopify.com/s/files/1/0656/3826/9187/files/BD-2024-THCA_PR_Flower_Web.jpg?v=1731690654"
-              alt="thca flower"
+              src="/images/BD-510_Carts_Web.webp"
+              alt="510 cartridges"
             />
           </Link>
         </div>
@@ -45,11 +45,11 @@ export default function Home() {
       {
         <div className="flex gap-[5px] p-[5px] 2xl:p-4 2xl:hidden bg-[#f5f5f5] w-[100%] flex-col">
           <div className="w-full">
-            <Link href="https://burningdaily.com/collections/flower-pre-rolls">
+            <Link href="https://burningdaily.com/collections/delta-8-cartridges">
               <img
                 className="h-full w-full object-cover"
-                src="https://cdn.shopify.com/s/files/1/0656/3826/9187/files/BD-2024-THCA_PR_Flower_Web.jpg?v=1731690654"
-                alt="thca flower"
+                src="/images/BD-510_Carts_Web.webp"
+                alt="510 cartridges"
               />
             </Link>
           </div>
